@@ -1,16 +1,12 @@
-import Hero from "./components/Hero";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import React from 'react';
 
 
 const App = () => {
   return (
-    <div>
-      <Hero />
-      <Skills />
-      <Projects />
-      <Contact />
+    <div className='bg-red text-2xl font-semibold'>
+          <p>djoefowe</p> 
     </div>
   );
 }
+
+export default App;
