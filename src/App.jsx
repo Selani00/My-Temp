@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Navbar from "./scenes/Navbar";
 
 const App = () => {
   //State
